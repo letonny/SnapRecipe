@@ -26,8 +26,12 @@ MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB limit
 ALLOWED_CONTENT_TYPES = ["image/jpeg", "image/png", "image/webp"]
 KNOWN_FOOD_CLASSES = {
     'apple', 'banana', 'orange', 'broccoli', 'carrot', 'cake', 'sandwich', 
-    'donut', 'pizza', 'hot dog', 'bottle', 'bowl', 'cup'
+    'donut', 'pizza', 'hot dog', 'bottle', 'bowl', 'cup',
+    'milk', 'cheese', 'egg', 'butter', 'tomato', 'onion', 'lettuce', 
+    'spinach', 'cucumber', 'strawberry', 'grape', 'chicken', 'beef', 
+    'pork', 'fish', 'rice', 'pasta', 'bread', 'yogurt', 'coffee', 'tea'
 }
+
 
 # Initialize Models (Load once at startup)
 # 'yolov8n.pt' is small, or upgrade to 'yolov8x', loading might take time.
